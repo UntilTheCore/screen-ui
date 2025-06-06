@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "pnpm -C docs docs:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "screen-ui": "file:",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "vue-tsc": "^2.2.10"
+  }
+}

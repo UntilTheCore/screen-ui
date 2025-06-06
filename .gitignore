@@ -1,0 +1,12 @@
+# folder 
+.idea/
+.vscode/
+
+dist/
+build/
+**/cache/
+**/.vite/
+.DS_Store
+
+**/dist
+**/node_modules
