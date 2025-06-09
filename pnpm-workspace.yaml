@@ -1,5 +1,8 @@
 packages:
-  - packages/*
+  - packages/**
   - docs
-onlyBuiltDependencies:
-  - esbuild
+  - screen-preview
+
+catalog:
+  lodash: ^4.17.21
+  lodash-es: ^4.17.21
