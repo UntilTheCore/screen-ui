@@ -1,5 +1,5 @@
 {
-  "name": "screen-ui",
+  "name": "@screen-ui/components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,7 +19,8 @@
     "@vitejs/plugin-vue": "^5.2.4",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
-    "vue": "^3.5.16"
+    "vue": "^3.5.16",
+    "@screen-ui/utils": "workspace:*"
   },
   "dependencies": {
     "lodash": "^4.17.21",

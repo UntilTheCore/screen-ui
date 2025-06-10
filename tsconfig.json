@@ -10,5 +10,19 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "."
   },
-  "exclude": ["node_modules", "dist"]
+  "references": [
+    {
+      "path": "./tsconfig.web.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.vite-config.json"
+    },
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

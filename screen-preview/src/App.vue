@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { ResponsiveLayout, Input } from "screen-ui";
+import { ResponsiveLayout, Input, SnSelect } from "screen-ui";
 </script>
 
 <template>
   <responsive-layout>
-    <div class="app">123</div>
+    <div class="app">
+      <sn-select />
+    </div>
   </responsive-layout>
 </template>
 
